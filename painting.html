@@ -58,21 +58,14 @@
         <main class="main-area">
             <article class="post-content">
 				           
-<video preload="metadata" autoplay muted width="95%">
-  <source src="videos/CR_1.mp4" type="video/mp4">
-  <source src="videos/CR_1.ogg" type="video/ogg">
+<video preload="auto" autoplay muted width="95%">
+  <source src="videos/mixing_paint.mp4" type="video/mp4">
+  <source src="videos/mixing_paint.mp4" type="video/ogg">
 </video>
 
 				
 
-<script>
-  video.addEventListener('loadedmetadata', function() {
-    if (video.buffered.length === 0) return;
 
-    var bufferedSeconds = video.buffered.end(0) - video.buffered.start(0);
-    console.log(bufferedSeconds + ' seconds of video are ready to play!');
-  });
-</script>
 				
 		    </article>
    		</main>
@@ -555,6 +548,7 @@
     <!-- .outer-wrap -->
 		
 	 <!-- toggle start -->	
+		
 		<script>
   video.addEventListener('loadedmetadata', function() {
     if (video.buffered.length === 0) return;
@@ -563,6 +557,7 @@
     console.log(bufferedSeconds + ' seconds of video are ready to play!');
   });
 </script>
+		
 		
 	<script>$("#modal1, .modal-overlay").click(function(e) {
    e.preventDefault();
