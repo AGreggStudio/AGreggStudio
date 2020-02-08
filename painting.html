@@ -32,7 +32,6 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                   	<li><a href="drawing.html">Drawing</a></li>
-                   
                     <li><a href="collage.html">Collage</a></li>
 					 <li><a href="FAQ.html">FAQ</a></li>
 					<li><a href="bio.html">Bio</a></li>
@@ -59,11 +58,22 @@
         <main class="main-area">
             <article class="post-content">
 				           
-<video autoplay muted width="95%">
+<video preload="metadata" autoplay muted width="95%">
   <source src="videos/CR_1.mp4" type="video/mp4">
   <source src="videos/CR_1.ogg" type="video/ogg">
 </video>
-			
+
+				
+
+<script>
+  video.addEventListener('loadedmetadata', function() {
+    if (video.buffered.length === 0) return;
+
+    var bufferedSeconds = video.buffered.end(0) - video.buffered.start(0);
+    console.log(bufferedSeconds + ' seconds of video are ready to play!');
+  });
+</script>
+				
 		    </article>
    		</main>
 			
@@ -545,6 +555,14 @@
     <!-- .outer-wrap -->
 		
 	 <!-- toggle start -->	
+		<script>
+  video.addEventListener('loadedmetadata', function() {
+    if (video.buffered.length === 0) return;
+
+    var bufferedSeconds = video.buffered.end(0) - video.buffered.start(0);
+    console.log(bufferedSeconds + ' seconds of video are ready to play!');
+  });
+</script>
 		
 	<script>$("#modal1, .modal-overlay").click(function(e) {
    e.preventDefault();

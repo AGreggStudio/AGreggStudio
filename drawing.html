@@ -49,7 +49,7 @@
  
         <main class="main-area">
             <article class="post-content">
-				<video class=show autoplay muted width="95%">
+				<video class=show preload="metadata" autoplay muted width="95%">
   					<source src="videos/Background-drawing_1%20copy%202.mp4" type="video/mp4">
 				</video>
    
@@ -854,6 +854,15 @@
             </nav><!-- .social-menu -->
         </div><!-- .mixed-menu -->
    <!-- .outer-wrap -->
+		
+		<script>
+  video.addEventListener('loadedmetadata', function() {
+    if (video.buffered.length === 0) return;
+
+    var bufferedSeconds = video.buffered.end(0) - video.buffered.start(0);
+    console.log(bufferedSeconds + ' seconds of video are ready to play!');
+  });
+</script>
 
     <script type="text/javascript" src="JS/libs/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="JS/sidebar-switcher.js"></script>
