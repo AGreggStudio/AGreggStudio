@@ -1,0 +1,56 @@
+.masthead {
+    background: hsl(0, 0%, 90%);
+	line-height: normal;
+	margin-top: -20px;
+	font-family: 'Poiret One';
+}
+
+.site-title {
+    color: black;
+	font-weight: 100;
+	display: flex;
+	justify-content: flex-start;
+}
+
+#biography {
+	
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.site-branding {
+	display: flex;
+	justify-content: center;
+	
+}
+
+						
+						
+						
+#transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+#transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+.main-area {
+    padding: 1em;
+	
+}
+
+.post-content {
+display: flex;
+justify-content: center; /* align horizontal */
+align-items: center; /* align vertical */
+width: 100%;
+	
+}
+
+

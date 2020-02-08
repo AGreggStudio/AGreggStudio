@@ -1,0 +1,30 @@
+/* Base styles that apply to all menus */
+.menu-section {
+	padding-bottom: 2em;
+	margin-bottom: 2em;
+	border-bottom: 1px solid hsl(0, 0%, 90%);
+	
+	
+}
+
+.menu ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background: hsl(0, 0%, 90%);
+}
+
+.menu li a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: .6em 1em;
+	font-variant-caps: all-petite-caps;
+	font-family: poirot one;
+	font-size: 15px;
+
+}
+
+.menu li a:hover {
+	background: hsl(0, 0%, 95%);
+}

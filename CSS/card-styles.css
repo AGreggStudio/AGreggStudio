@@ -1,0 +1,455 @@
+/* Card Based Layout - Base styles */
+
+body {
+	background: hsl(0, 0%, 90%);
+}
+
+.masthead {
+	background: hsl(0, 0%, 20%);
+}
+
+.site-title {
+	color: white;
+}
+
+
+
+.card {
+	background: hsl(0, 0%, 90%);
+	margin-bottom: 2em;	
+	font-family: Poiret+One&display=swap;
+	flex:1; 
+  
+}
+
+.card video {
+display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+	
+}
+
+.video { /* specific figure size */
+  max-width: 1000px;
+}
+
+.card a {
+	color: black;
+	text-decoration: none;
+}
+
+.card a:hover {
+	box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+
+.card-content {
+width: 100%;
+margin-left: auto
+padding: 1em;
+	
+	
+}
+
+
+.card-content h2 {
+	margin-top: 0;
+	margin-bottom: .5em;
+	font-weight: 100;
+	font-size: 20px;
+}
+
+.card-content p {
+	
+	font-weight: 100;
+	font-size: 15px;
+}
+
+.card-content form {
+	height: 50px;
+}
+
+/* Card Based Layout - Base styles */
+
+/* Card Based Layout - Base styles */
+
+/*Eliminates padding, centers the thumbnail */
+
+
+
+/* Styles the thumbnail */
+
+#content {
+	
+width: 100%; /* Full width */
+height: auto; /* Full height */
+	
+	
+}
+
+
+bio {
+  margin: 0;
+  padding: 0; /* reset */
+  
+}
+
+bio img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%; /* just in case? not nessesary */
+
+}
+
+.bio { /* specific figure size */
+  max-width: 1000px;
+}
+
+a.lightbox img {
+
+width: 100%; /* Full width */
+height: auto;
+
+ /* Full height */
+
+}
+
+/* Styles the lightbox, removes it from sight and adds the fade-in transition */
+
+.lightbox-target {
+display: flex;
+justify-content:flex-start;
+position: fixed;
+top: 100%;
+left:5%;
+width: 100%;
+height: 100%;
+	
+object-fit: cover;
+vertical-align: top;
+
+opacity: 0;
+-webkit-transition: opacity .5s ease-in-out;
+-moz-transition: opacity .5s ease-in-out;
+-o-transition: opacity .5s ease-in-out;
+transition: opacity .5s ease-in-out;
+overflow: auto;
+}
+
+
+
+
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .lightbox-target {
+    width: 100%;
+	height: 40%
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  .lightbox-target {
+    width: 100%;
+	height: 40%
+  }
+	
+	
+}
+
+/* Flexbox stuff */
+
+@media screen and (min-width: 40em) {
+    .cards {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        -webkit-justify-content: space-between;
+            -ms-flex: justify;
+                justify-content: space-between;
+        margin-top: -1em;
+    }
+
+    .card {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex: 0 1 calc(50% - .5em);
+            -ms-flex: 0 1 calc(50% - .5em);
+                flex: 0 1 calc(50% - .5em);
+        margin-bottom: 1em;
+    }
+	
+	.enlarge p {
+		
+		display: none;
+	}
+	
+
+		
+		
+	}
+	
+
+
+@media screen and (max-width: 25em) {
+	
+	
+	    .cards {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        -webkit-justify-content: space-between;
+            -ms-flex: justify;
+                justify-content: space-between;
+        margin-top: -1em;
+    }
+
+    .card {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex: 0 1 calc(70% - .3em);
+            -ms-flex: 0 1 calc(70% - .3em);
+                flex: 0 1 calc(70% - .3em);
+        margin-bottom: 1em;
+    }
+	
+.enlarge p {
+		
+		display: none;
+	}	
+
+	.journal {
+	
+    top:0;
+	left:0;
+    height:100%;
+    width:100%;	
+
+
+	}
+	
+	.journal iframe {
+		
+		top:0;
+		left:0;
+		width: 100%;
+		height: 100%;
+	}
+
+	journal {
+		
+		
+	
+  max-width: 300px;
+
+	}
+}
+
+@media screen and (min-width: 60em) {
+	
+	.enlarge p {
+		
+		display: block;
+		
+	}
+	
+	.thumbnail {
+		
+	width: 100%;
+	
+	}
+}
+
+
+@media screen and (min-width: 70em) {
+    .cards {
+        margin-top: inherit;
+    }    
+    .card {
+        -webkit-flex: 0 1 calc(33% - 1em);
+            -ms-flex: 0 1 calc(33% - 1em);
+                flex: 0 1 calc(33% - 1em);
+        margin-bottom: 2em;
+    }
+	
+	/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
+
+.lightbox-target img {
+
+display: flex;
+justify-content:flex-start;	
+margin: auto;
+position: absolute;
+top: 0%;
+overflow: auto;
+max-height: 100%;
+max-width: 100%;
+box-sizing: border-box;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
+
+.lightbox-target #solid img {
+top: 0%;
+left:0%;
+}
+
+/* Styles the close link, adds the slide down transition */
+
+a.lightbox-close {
+display: block;
+width:50px;
+height:50px;
+box-sizing: border-box;
+background: white;
+color: black;
+text-decoration: none;
+position: absolute;
+top: -80px;
+right: 20;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:before {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-o-transform:rotate(45deg);
+transform:rotate(45deg);
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:after {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(-45deg);
+-moz-transform:rotate(-45deg);
+-o-transform:rotate(-45deg);
+transform:rotate(-45deg);
+}
+
+/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
+
+.lightbox-target:target {
+opacity: 1;
+top: 0;
+bottom: 0;
+}
+
+.lightbox-target:target img {
+max-height: 100%;
+max-width: 100%;
+}
+
+.lightbox-target:target a.lightbox-close {
+top: 0px;
+}
+
+
+/* Card Based Layout - Base styles */
+
+
+
+
+
+
+/* Add Animation */
+.lightbox-target,  {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+	
+	 .enlarge p {
+		
+		font-size: 10px;
+		color: black;
+		
+	}
+	
+	.thumbnail {
+		
+		
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+	
+}
+.thumbnail iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}	
+	
+	
+}
+
+
+
+
+
+
