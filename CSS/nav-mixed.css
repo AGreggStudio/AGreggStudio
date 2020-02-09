@@ -18,6 +18,34 @@ font-variant-caps: all-petite-caps;
 	font-weight: 100;
 	font-size: 15px;
 
+@media screen and (min-width: 25em) {
 	
+	
+    
+    .advanced-nav ul {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        -webkit-justify-content: flex-start;
+            -ms-flex-pack:flex-start;
+                justify-content:flex-start;
+    }
+    
+    .advanced-nav li {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex: 1 0 12em;
+            -ms-flex: 1 0 12em;
+                flex: 1 0 12em;
+		
+    }
+	
+	
+    
+}
 	
 	

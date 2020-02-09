@@ -28,3 +28,35 @@
 .menu li a:hover {
 	background: hsl(0, 0%, 95%);
 }
+
+@media screen and (max-width: 25em) {
+	
+.menu-section {
+	padding-bottom: 0em;
+	margin-bottom: 0em;
+	border-bottom: 1px solid hsl(0, 0%, 90%);
+	
+	
+}
+
+.menu ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background: hsl(0, 0%, 90%);
+	flex-direction: row;
+}
+
+.menu li a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: .1em 0em;
+	font-variant-caps: all-petite-caps;
+	font-family: poirot one;
+	font-size: 15px;
+
+}	
+	
+	
+}

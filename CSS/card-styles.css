@@ -216,9 +216,9 @@ overflow: auto;
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
-        -webkit-flex: 0 1 calc(70% - .3em);
-            -ms-flex: 0 1 calc(70% - .3em);
-                flex: 0 1 calc(70% - .3em);
+        -webkit-flex: 0 1 calc(100% - .3em);
+            -ms-flex: 0 1 calc(100% - .3em);
+                flex: 0 1 calc(100% - .3em);
         margin-bottom: 1em;
     }
 	

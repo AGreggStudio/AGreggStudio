@@ -59,8 +59,8 @@
             <article class="post-content">
 				           
 <video preload="auto" autoplay muted width="95%">
-  <source src="videos/mixing_paint.mp4" type="video/mp4">
-  <source src="videos/mixing_paint.mp4" type="video/ogg">
+  <source id="paint" src="videos/mixing_paint.mp4" type="video/mp4">
+  <source id="paint" src="videos/mixing_paint.mp4" type="video/ogg">
 </video>
 
 				
@@ -548,27 +548,7 @@
     <!-- .outer-wrap -->
 		
 	 <!-- toggle start -->	
-		
-		<script>
-  video.addEventListener('loadedmetadata', function() {
-    if (video.buffered.length === 0) return;
-
-    var bufferedSeconds = video.buffered.end(0) - video.buffered.start(0);
-    console.log(bufferedSeconds + ' seconds of video are ready to play!');
-  });
-</script>
-		
-		
-	<script>$("#modal1, .modal-overlay").click(function(e) {
-   e.preventDefault();
-   $(".modal-box, .modal-overlay").fadeOut(500, function() {
-       $(".modal-overlay").remove();
-   });
-}
-		</script>
-		
-		
-		
+	
 	 <!-- toggle end -->
 	
 
