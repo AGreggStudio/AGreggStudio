@@ -29,9 +29,9 @@ font-variant-caps: all-petite-caps;
         -webkit-flex-wrap: wrap;
             -ms-flex-wrap: wrap;
                 flex-wrap: wrap;
-        -webkit-justify-content: flex-start;
-            -ms-flex-pack:flex-start;
-                justify-content:flex-start;
+        -webkit-justify-content: flex-end;
+            -ms-flex-pack:flex-end;
+                justify-content:flex-end;
     }
     
     .advanced-nav li {

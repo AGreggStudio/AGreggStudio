@@ -1,7 +1,7 @@
 /* Styles for Single Level Menu */
 @media screen and (max-width: 30em){
 	.multi-level-nav ul ul li a {
-		padding-left: 2em;
+		padding-left: 20em;
 	}
 
 	.dropdown-toggle {
@@ -17,9 +17,9 @@
         -webkit-flex-wrap: wrap;
             -ms-flex-wrap: wrap;
                 flex-wrap: wrap;
-        -webkit-justify-content: space-between;
+        -webkit-justify-content:flex-end;
             -ms-flex-pack: justify;
-                justify-content: space-between;
+                justify-content:flex-end;
 	
 	}	
 
@@ -31,7 +31,7 @@
 	}
 
 	li.has-children > a {
-		padding-right: 0;
+		padding-right: 80px;
 	}
 
 	.multi-level-nav ul ul {
