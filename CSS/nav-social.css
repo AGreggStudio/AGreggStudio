@@ -2,14 +2,14 @@
 
 /* Find src URL and add in correct social media icon. */
 .social-menu {
-	margin-left: 70px;
+	
 }
 
 .social-menu li a:before {
     font-family: 'Fontawesome';
     -webkit-font-smoothing: antialiased;
     content: '\f08e';
-	color: darkolivegreen;
+	color: orangered;
 
 	
 }
@@ -63,9 +63,9 @@
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-    -webkit-justify-content: flex-end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 	
 	
 }

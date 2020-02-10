@@ -23,7 +23,7 @@ body {
 }
 
 .card video {
-display: block;
+  display: block;
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -105,6 +105,28 @@ bio img {
 .bio { /* specific figure size */
   max-width: 1000px;
 }
+
+.journal {
+	
+    top:0;
+	left:0;
+    height:100%;
+    width:100%;	
+	max-width: 100%;
+
+
+	}
+	
+.journal iframe {
+		
+		top:0;
+		left:0;
+		width: 100%;
+		height: 100%;
+		max-width: 100%;
+	}
+
+	
 
 a.lightbox img {
 
@@ -227,31 +249,7 @@ overflow: auto;
 		display: none;
 	}	
 
-	.journal {
 	
-    top:0;
-	left:0;
-    height:100%;
-    width:100%;	
-
-
-	}
-	
-	.journal iframe {
-		
-		top:0;
-		left:0;
-		width: 100%;
-		height: 100%;
-	}
-
-	journal {
-		
-		
-	
-  max-width: 300px;
-
-	}
 	
 }
 
