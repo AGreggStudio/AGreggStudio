@@ -25,21 +25,11 @@
 	
 }
 
-						
-						
-						
-#transbox {
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.6;
+#up {
+	font-size: 15px;
 }
 
-#transbox p {
-  margin: 5%;
-  font-weight: bold;
-  color: #000000;
-}
+
 .main-area {
     padding: 1em;
 	
