@@ -10,12 +10,14 @@
     -webkit-font-smoothing: antialiased;
     content: '\f08e';
 	color: darkred;
-	margin-right: 40px;
+	margin-right: 45px;
 	font-size: 1.2rem;
 	
 
 	
 }
+
+
 
 .social-menu li a[href*="dribbble.com"]::before { content: '\f17d'; }
 
