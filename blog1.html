@@ -1,0 +1,481 @@
+ 
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+    
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158593941-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-158593941-1');
+
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <title>Andrew Gregg Studio - Artist</title>
+	
+    <meta name="description" content="Small Talk - a blog from Andrew Gregg's Studio ► thoughtful reflections about art."/>
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">            
+    <link rel="stylesheet" href="style-all-together.css" type="text/css" media="all">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    
+</head>
+    
+<body>
+    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+    <div class="outer-wrap">
+
+    <header class="masthead">
+			
+            <div class="site-branding">
+              <img src="img/heading%20AG.png">
+            </div><!-- .site-title -->
+	   
+        <div class="nav-mixed menu">
+            <nav id="multi-level-nav" class="multi-level-nav" role="navigation">
+				
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+					<li><a href="drawing.html">Drawing</a></li>
+					<li><a href="collage.html">Collage</a></li>
+					<li><a href="painting.html">Painting</a></li>
+                   <li><a href="FAQ.html">FAQ</a></li>
+					<li><a href="bio.html">Bio</a></li>
+					<li><a href="blog1.html">Small Talk</a></li>
+					<li><a href="mailto:agregg.studio@gmail.com?subject=Inquiry" target="_top">Contact</a></li>
+			
+                </ul>
+            </nav><!-- #multi-level-nav .multi-level-nav -->
+			 <nav id="social-menu" class="social-menu menu" role="navigation">
+                    <ul>
+                       <li><a href="http://instagram.com/andrewggregg"><span class="screen-reader-text">Instagram</span></a></li>
+						
+
+                    </ul>
+                </nav> 
+			
+			
+
+           
+        </div><!-- .mixed-menu -->
+        
+		</header>
+	</div>
+	</body>		
+
+    
+<style>
+body {
+  font-family: Arial;
+  color: #5c282d;
+  margin: 0;
+}
+
+* {
+  box-sizing:inherit;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+	font-family: Arial;
+  	position: relative;
+	height: 50%;
+	width:65%;
+	top: 50%;
+	left:17%;
+	
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+	
+  font-family: Arial;
+  text-align: center;
+  background-color: #5c282d;
+  font-size: 15px;
+  opacity: 0.9;
+  padding: .1px 0px;
+  color: white;
+	
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+  margin-top: 2%;
+	padding: .55%;
+	
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+	
+/* Styles for Single Level Menu */
+@media screen and (max-width: 30em){
+	/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position:fixed;
+  top: 50%;
+  margin-left: -50px;
+  width: auto;
+  padding: 10px;
+  color: #b4aca9;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 1px 1px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 1%;
+  border-radius: 3px 0 0 3px;
+}
+	
+	
+	/* Style the submit button */
+input[type=submit] {
+ 
+  align-content: center;
+  font-size: 8px;
+  background-color: white;
+  color: #5c282d;
+  border: none;
+  width:inherit;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+
+} 
+	
+	
+}
+
+@media screen and (min-width: 30em){
+	/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position:fixed;
+  top: 50%;
+  margin-left: -70px;
+  width: auto;
+  padding: 10px;
+  color: #b4aca9;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 1px 1px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 11%;
+  border-radius: 3px 0 0 3px;
+}
+	
+@media screen and (min-width: 50em){
+	/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position:fixed;
+  top: 50%;
+  margin-left: -70px;
+  width: auto;
+  padding: 10px;
+  color: #b4aca9;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 1px 1px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 13%;
+  border-radius: 3px 0 0 3px;
+}	
+	
+	}	
+____
+	
+	 /* Style the form element with a border around it */
+form {
+  border: 4px solid #f1f1f1;
+}
+
+/* Add some padding and a grey background color to containers */
+.container {
+  padding: 10px;
+  background-color: hsl(0, 0%, 90%);
+
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  display:flex;
+	width: 45%;
+  padding: 4px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  color: #5c282d;
+  background-color: white;
+}
+
+/* Add margins to the checkbox */
+
+
+/* Style the submit button */
+input[type=submit] {
+
+  background-color: white;
+  color: #5c282d;
+  border: none;
+  width:inherit;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+
+} 
+	
+	____
+	
+	
+	
+</style>
+<body>
+	
+	<span style="padding-left:200px"> </span>
+
+
+
+<div class="container">
+	
+	
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+	  <h4 style="text-align:center" color: #440622>COLLAGE WITH A SKULL</h4><h6 style="text-align:center" color: #440622>May 2020</h6>
+    <img src="img/jan7col7.png" style="width:100%">
+	  <p>As I write in Melbourne the Covid-19 pandemic continues to reap its daily harvest in many parts of the world. Because Australia’s public health system is second to none and because the country is an island, the death toll is very low at a little over 100. Perhaps widespread civil obedience helps as well.</p>
+	  <p>But how quickly we’ll forget all this. The national media has been relentless in its excellent daily reportage on local, national and international pandemic developments. Of course in time the story will inevitably change. We’ve become numbed by the news cycle. Our memory is becoming increasingly and dangerously shallow. </p>
+	  <p>This is what happened not long after much of eastern Australia burned. Only the people who were directly affected by the horror of the fires still carry deeply etched memories. Firefighters, homeowners and families who lost loved ones will never forget. One number among the statistics has stayed with me. It was estimated that more than a billion birds and animals perished. Yet another massive blow to the natural world by its most dangerous alpha inhabitant.</p>
+	  <p>Except for a couple of smoky days in Melbourne I had no first hand experience of the fires. Meanwhile working in my secluded art studio I found myself looking carefully at a delicate crow skull. I’m usually drawn to skulls and bones for their resemblance to the weather worn shapes of rocks in beach cliffs and hilly landscapes. As I proceeded I thought more of raging fires and hapless birds and countless other bush creatures. In fact I was actually making small memorials. First the skull, carefully drawn with all its many associations and then the surrounding wreath-like collage. Colour was limited to reds and black - the essential colours of the disaster. Each transparent composition floated ember-like in a void.</p>
+	  <p>If there is any truth in the old Roman saying Ars longa, vita brevis, then in the face of terrible disaster there is an indelible role for art, no matter how modest. </p>
+
+
+<p>
+ <span style="padding-left:10px"> </span><a href="https://andrewgregg.studio/">Andrew Gregg Website</a>&nbsp;&nbsp; <a href="https://www.instagram.com/andrewggregg/">Andrew Gregg Instagram</a></p>
+	
+  </div>
+	
+	
+	  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+	   <h4 style="text-align:center" color: #440622>Red Landscape</h4><h6 style="text-align:center" color: #440622>May 2020</h6>
+        <img src="img/two%20pelicans.png" style="width:100%">
+	    <p>Australia lures countless tourists in large part by its astonishing landscapes. It may be that visiting tourists have seen more of Australia than many locals. I have never been to the Kimberly region of Western Australia. I’ve only imagined it. My imagined construction has of course been shaped by countless photographic essays, television travel documentaries and of course artists all drawn to this vast geologically red space. </p>
+
+<p>Countless parts of this country have been understood as sacred by the indigenous first nations. This holds true for this part of Western Australian. Despite the ravages of mining companies and millions of roaming cattle picking over a delicate ecology this timeless landscape seems to wait everything out. Having not undergone the (geologically recent) ice ages of the northern hemisphere the deep red soils of Australia are millions of years old. Chemical weathering called oxidation forms the soil from broken or rusting rocks.</p>
+
+<p>In my painting, (one of a series of four) I’ve decided to emphasize redness and worn down shapes.  By providing a deep indigo sky the range of warm reds, oranges and yellows appear to glow. The further contrast of green scrubby vegetation (beloved of many Australian landscape painters) completes this triad of land, growth and sky. Having white plumed pelicans wing by animates the composition. Because this distinctive landscape seems older than time I’ve favoured a storybook feel. It is possible to emphasize the stark potential danger of a place like this but my response is more of wonder and invitation. After all I’ve never been there. </p><p><a href="https://andrewgregg.studio/">Andrew Gregg Website</a>&nbsp;&nbsp; <a href="https://www.instagram.com/andrewggregg/">Andrew Gregg Instagram</a></p>
+	   
+  </div>
+	 
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+	   <h4 style="text-align:center" color: #440622>Why I Bought This Painting</h4><h6 style="text-align:center" color: #440622>April 2020</h6>
+	 
+    <img src="img/Jimi.png" style="width:100%">
+	  
+	
+	
+	 
+	   <p> I have a nephew named Jimi Gregg. He recently graduated as a painter from VCA in Melbourne. I once visited him in his college cubicle studio set among many others. It became clear at once that Jimi was a thoughtful, dedicated young artist.
+I decided then that I wanted to support this student artist not only because he was family but because I liked what he was making.</p>
+<p>How daunting it must be to search for and develop an individual voice in the face of the astonishing contemporary Australian art scene. Jimi is clearly conversant with many of the international heroes of modern and contemporary painting and with many of Australia’s greats both past and present. In short I liked his understated light touch and the way he balances painting with drawing.  He has learned from, among many others, early Hockney, Rivers, Twombly, Motherwell, Klee and assorted giants of french Modernism.</p>
+<p>The large (1.83 x 1.22m) untitled painting is a visual poem that demonstrates a whimsical play between painterly and drawn elements.  Mysterious suggestion permeates the work. To suggest surreal would be overstatement. Delicately erased pentimenti fuse with subtly drawn architectural shapes. An arch motif leads the painting.  We view what might be a central open landscape through a contained framing arc. This shape is repeated in what may be the spans of a bridge or conversely ambiguous landscape forms. These softer shapes are underpinned by a barrier-like foreground base. The main events take place in the central field. Poles, flags, balls, tent and curtain shapes appear in drawn delicacy and provide a suggested location and activity. Colour is muted and isolated. Line is repeated in a variety of smudged erased marks. A repeated vertical rhythm across the mostly open creamy canvas ground may be linked to Jimi’s other life as a much in demand rock drummer.</p>
+<p>I love this painting because of the evident pleasure the artist takes in gentle, playful musical whimsy. The artist already understands the poetic role of partially erased suggestion. Less really is more here. Everywhere the hand of the artist is evident. We follow many hesitant or emphatic marks across the canvas with the pleasure this young artist felt in making them. This work is refreshingly free from any of the usual ‘issue’ tropes that permeate much of contemporary art making. It is about subtle understatement and the role of discovery in making art.  </p> <p><a href="https://www.instagram.com/jimigregg/">Jimi Gregg's Instagram</a> </p>
+	
+	 
+	 
+  </div>
+
+
+
+    
+ 
+	
+
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    
+	  <div class="column">
+      <img class="demo cursor" src="img/jan7col7.png" style="width:100%" onclick="currentSlide(3)" alt="Andrew Gregg">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/two%20pelicans.png" style="width:100%" onclick="currentSlide(2)" alt="Andrew Gregg">
+    </div>
+    
+	  
+	  <div class="column">
+      <img class="demo cursor" src="img/Jimi.png" style="width:100%" onclick="currentSlide(1)" alt="Jimi Gregg">
+    </div>
+ 
+  </div>
+	 <span style="padding-left:50px"> </span>
+		
+</div>
+
+
+    
+</body>
+  <footer class="footer-area">
+	  
+	  
+
+	<form action="mailto:smalltalkaboutart@gmail.com?subject=Please email me for more art small talk!"  method="post" enctype="text/plain" >
+		
+	
+		
+  <div class="container">
+   
+	  
+  </div>
+
+  <div class="container" style="background-color:white">
+    <input type="text" placeholder="Name" name="Name  " required>
+    <input type="text" placeholder="Email Address" name="Email  " required>
+	 
+    
+  </div>
+
+  <div class="container">
+    <input type="submit"  value="Receive Blog Posts in Your Mailbox">
+  </div>
+		
+		 
+</form>
+	
+
+	
+
+	
+		<section class="menu-section">
+			
+    <h6 style="font-size: 10px;">Copyright Andrew Gregg 2019</h6>             
+               
+            </section><!-- .menu-section -->
+		  
+				      
+ </footer>
+		
+	
+
+
+
+<!-- End Google Analytics -->
+		
+ <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script> 
+			
+		
+		
+	
+		
+		</html>		
