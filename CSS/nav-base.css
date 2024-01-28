@@ -29,7 +29,7 @@
 	background: hsl(0, 0%, 95%);
 }
 
-/*@media screen and (max-width: 30em) {
+@media screen and (max-width: 30em) {
 	
 .menu-section {
 	padding-bottom: 0em;
@@ -60,7 +60,7 @@
 }	
 	
 	
-}*/
+}
 
 
 @media screen and (min-width: 40em) (max-width: 60em){
